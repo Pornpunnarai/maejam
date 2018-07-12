@@ -7,6 +7,12 @@ body,head,h1,h2,h3,h4,h5,text,mtext,a{
     font-family: Lamoon;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    width: 30%;
+}
+
+
+
 @media (min-width: 992px) {
     #mainNav {
         background: linear-gradient(#FFEB3B, #fbb428);
@@ -21,11 +27,58 @@ body,head,h1,h2,h3,h4,h5,text,mtext,a{
     .navbar-expand-lg>.container {
         /*border-bottom: 1.5px #be9735 solid;*/
     }
+    .carousel-control-next, .carousel-control-prev {
+        width: 30%;
+    }
+    div.col-lg-5.col-md-6.col-sm-6.a{
+        text-align: right;
+    }
 }
+
+@media (max-width: 992px) {
+    .carousel-control-next, .carousel-control-prev {
+        width: 10%;
+    }
+    div.col-lg-5.col-md-6.col-sm-6.a{
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) {
+    div.dropdown-menu.show{
+        width: 290px;
+    }
+}
+
+@media (min-width: 375px) {
+    div.dropdown-menu.show{
+        width: 345px;
+    }
+}
+
+@media (min-width: 414px) {
+    div.dropdown-menu.show{
+        width: 384px;
+    }
+}
+
+@media (min-width: 768px) {
+    div.dropdown-menu.show{
+        width: 738px;
+    }
+}
+
+@media (max-width: 768px) {
+    div#navbarResponsive.navbar-collapse.collapse.show{
+        border-bottom: none;
+    }
+}
+
 
 h1{
     font-size: 50px;
 }
+
 h2{
     font-size: 35px;
 }
@@ -38,13 +91,11 @@ p{
     font-size: 20px;
 }
 .carousel {
-    height: 220px;
+    /*height: 220px;*/
     background-color: #aed266;
 }
 
-.carousel-control-next, .carousel-control-prev {
-    width: 30%;
-}
+
 header.masthead{
     background-image: url(../img/20180627_180704_0003.jpg);
 }
