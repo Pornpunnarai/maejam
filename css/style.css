@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Lamoon;
+    src: url('../vendor/font-awesome/fonts/Lamoon.otf');
+}
+
+body,head,h1,h2,h3,h4,h5,text,mtext,a{
+    font-family: Lamoon;
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+        background: linear-gradient(#FFEB3B, #fbb428);
+        height: 220px;
+    }
+
+    #mainNav .navbar-nav>li.nav-item>a.nav-link {
+        color: #705306;
+        font-size: 22px;
+    }
+
+    .navbar-expand-lg>.container {
+        /*border-bottom: 1.5px #be9735 solid;*/
+    }
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+.carousel {
+    height: 220px;
+    background-color: #aed266;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 30%;
+}
+header.masthead{
+    background-image: url(../img/20180627_180704_0003.jpg);
+}
+
+.text-primary {
+    background-color: #454744;
+    padding: 2rem;
+    border-radius: 50%;
+    color: white!important
+}
+
+.text-primary:hover
+{
+    background-color: #5eb4c4!important;
+}
+
+.col-lg-6.col-md-6.col-sm-6{
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+img.imgSquare{
+   border-radius: 50%;
+}
+
+.fa.fa-3x{
+    margin-top: -100px;
+    margin-left: 150px;
+    background-color: #60b3c3;
+    padding: 1rem;
+}
+
+i.fa.fa-instagram,i.fa.fa-youtube,i.fa.fa-facebook,i.fa.fa-twitter,i.fa.fa-google-plus,i.fa.fa-linkedin{
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #66afb8;
+}
+
+p.borderp, .borderp{
+    border: 2px green solid;
+    border-radius: 20px;
+    padding: 1%;
+}
